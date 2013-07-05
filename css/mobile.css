@@ -1,0 +1,27 @@
+@media screen and (min-width: 1200px) {
+  /* Bootstrap defined responsive layout viewport */
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  /* Bootstrap defined responsive layout viewport */
+}
+
+@media screen and (max-width: 767px) {
+  /* Bootstrap defined responsive layout viewport */
+
+  /* Override Bootstrap definition */
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .copyright {
+    padding: 6px 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+  }
+}

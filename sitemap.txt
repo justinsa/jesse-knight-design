@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url> 
+    <loc>http://www.primarq.com/index.html</loc>
+    <loc>http://www.primarq.com/mission.html</loc>
+    <loc>http://www.primarq.com/services.html</loc>
+    <loc>http://www.primarq.com/contact.html</loc>
+  </url>
+</urlset>

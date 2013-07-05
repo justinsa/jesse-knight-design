@@ -1,0 +1,15 @@
+# humanstxt.org/
+
+/* TEAM */
+Name: Justin W. Saunders
+Twitter: jsaundea
+Location: San Francisco, California
+
+/* THANKS */
+Name: N/A
+
+/* SITE */
+Last update: 2013/07/05
+Standards: CSS3, HTML5, JavaScript
+Components: N/A
+Software: N/A

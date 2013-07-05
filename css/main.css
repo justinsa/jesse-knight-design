@@ -1,0 +1,60 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('vendor/normalize.css');
+@import url('defaults.css');
+@import url('vendor/jquery-ui-1.10.2.css');
+@import url('vendor/bootstrap.css');
+
+a {
+  cursor: pointer; 
+}
+body,
+html {
+  background: #fff;
+  height:100%;
+}
+body {
+  margin: 0px;
+  min-width: 320px;
+}
+footer,
+header {
+  clear: both;
+}
+footer,
+header,
+section {
+  margin-top: 20px;
+  width: 100%;
+}
+footer {
+  font-size: 11px;
+}
+
+ul.contact-information {
+  display: block;
+  margin: 0px;
+  padding: 15px 0px;
+}
+ul.contact-information li {
+  display: inline;
+  margin: 0px;
+}
+ul.contact-information li:before {
+  content: '\2022';
+  margin: 0px 10px;
+}
+ul.contact-information li.first:before {
+  content: '';
+  margin: 0px; 
+}
+ul.contact-information li.last {
+  padding-right: 0px;
+}
+
+.copyright {
+  width: 100%;
+  padding: 15px 0;
+  text-align: right;
+  margin: 0;
+  font-size: 11px;
+}
