@@ -4,8 +4,13 @@
 @import url('vendor/jquery-ui-1.10.2.css');
 @import url('vendor/bootstrap.css');
 
-a {
-  cursor: pointer; 
+/* Header Color: #227edd */
+/* HR Color: #005cd1 */
+/* Menu Color: #63A5F8 */
+
+a, a:link {
+  cursor: pointer;
+  text-decoration: none;
 }
 body,
 html {
@@ -15,6 +20,7 @@ html {
 body {
   margin: 0px;
   min-width: 320px;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
 }
 footer,
 header {
@@ -28,6 +34,19 @@ section {
 }
 footer {
   font-size: 11px;
+}
+
+.navbar .brand {
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, #63A5F8, #005cd1);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#63A5F8), to(#005cd1));
+  background-image: -webkit-linear-gradient(top, #63A5F8, #005cd1);
+  background-image: -o-linear-gradient(top, #63A5F8, #005cd1);
+  background-image: linear-gradient(to bottom, #63A5F8, #005cd1);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#63A5F8', endColorstr='#005cd1', GradientType=0);
 }
 
 ul.contact-information {
@@ -56,5 +75,4 @@ ul.contact-information li.last {
   padding: 15px 0;
   text-align: right;
   margin: 0;
-  font-size: 11px;
 }
