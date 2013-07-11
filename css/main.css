@@ -62,11 +62,11 @@ ul.contact-information li:before {
   content: '\2022';
   margin: 0px 10px;
 }
-ul.contact-information li.first:before {
+ul.contact-information li:first-child:before {
   content: '';
   margin: 0px; 
 }
-ul.contact-information li.last {
+ul.contact-information li:last-child {
   padding-right: 0px;
 }
 
