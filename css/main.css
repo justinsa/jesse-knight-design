@@ -50,6 +50,7 @@ footer {
 }
 
 ul.contact-information {
+  text-align: center;
   display: block;
   margin: 0px;
   padding: 15px 0px;
@@ -75,4 +76,12 @@ ul.contact-information li:last-child {
   padding: 15px 0;
   text-align: right;
   margin: 0;
+}
+
+.primary-theme-style {
+  background: #fff url('../img/bg-white-fire-sprinkler-1280x460.jpg') no-repeat center top;
+}
+
+.secondary-theme-style {
+  background: #fff url('../img/bg-white-fire-sprinkler-1280x460.jpg') no-repeat center top;
 }
