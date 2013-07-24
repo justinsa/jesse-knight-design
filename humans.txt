@@ -9,7 +9,7 @@ Location: San Francisco, California
 Name: N/A
 
 /* SITE */
-Last update: 2013/07/10
+Last update: 2013/07/24
 Standards: CSS3, HTML5, JavaScript
-Components: N/A
-Software: N/A
+Components: Twitter Bootstrap
+Software: Sublime Text 2

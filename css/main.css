@@ -1,12 +1,7 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('vendor/normalize.css');
 @import url('defaults.css');
-@import url('vendor/jquery-ui-1.10.2.css');
 @import url('vendor/bootstrap.css');
-
-/* Header Color: #227edd */
-/* HR Color: #005cd1 */
-/* Menu Color: #63A5F8 */
 
 a, a:link {
   cursor: pointer;
@@ -20,7 +15,7 @@ html {
 body {
   margin: 0px;
   min-width: 320px;
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-family: 'Source Sans Pro', helvetica, arial, sans-serif;
 }
 footer,
 header {
@@ -74,7 +69,7 @@ ul.contact-information li:last-child {
 .copyright {
   width: 100%;
   padding: 15px 0;
-  text-align: right;
+  text-align: center;
   margin: 0;
 }
 
