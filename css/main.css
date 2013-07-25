@@ -51,10 +51,12 @@ footer {
 }
 
 .services-showcase {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  border-radius: 10px;
+  padding: 15px 0px;
+  background-color: #f6f6f6;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -khtml-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 ul.contact-information {
@@ -63,10 +65,10 @@ ul.contact-information {
   display: block;
   margin: 0px;
   padding: 10px 0px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  border-radius: 10px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -khtml-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 ul.contact-information li {
   display: inline;
