@@ -36,9 +36,11 @@ footer {
   background-color: transparent;
   background-image: url('../img/bg-fire-sprinklers.jpg');
   background-repeat: no-repeat;
+  background-position: center top;
 }
 
 ul.contact-information {
+  background-color: #d3d3d3;
   text-align: center;
   display: block;
   margin: 0px;
@@ -61,16 +63,9 @@ ul.contact-information li:last-child {
 }
 
 .copyright {
+  color: #d3d3d3;
   width: 100%;
   padding: 15px 0;
   text-align: center;
   margin: 0;
-}
-
-.primary-theme-style {
-  background: #fff url('../img/bg-white-fire-sprinkler-1280x460.jpg') no-repeat center top;
-}
-
-.secondary-theme-style {
-  background: #fff url('../img/bg-white-fire-sprinkler-1280x460.jpg') no-repeat center top;
 }
