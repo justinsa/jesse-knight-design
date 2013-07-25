@@ -3,6 +3,17 @@
 @import url('defaults.css');
 @import url('vendor/bootstrap.css');
 
+/*
+  Fonts: Arial, Source Sans Pro
+  Colors:
+    #1b3553
+    #d5dfea
+    #e7e7e7
+    #d3d3d3
+    #f6f6f6
+    #9bacc0
+*/
+
 a, a:link {
   cursor: pointer;
   text-decoration: none;
@@ -39,19 +50,31 @@ footer {
   background-position: center top;
 }
 
+.services-showcase {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
 ul.contact-information {
   background-color: #d3d3d3;
   text-align: center;
   display: block;
   margin: 0px;
-  padding: 15px 0px;
+  padding: 10px 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
 }
 ul.contact-information li {
   display: inline;
   margin: 0px;
 }
 ul.contact-information li:before {
-  content: '\2022';
+  color: #f6f6f6;
+  content: '\007C';
   margin: 0px 10px;
 }
 ul.contact-information li:first-child:before {
@@ -60,6 +83,12 @@ ul.contact-information li:first-child:before {
 }
 ul.contact-information li:last-child {
   padding-right: 0px;
+}
+ul.contact-information a, ul.contact-information a:link {
+  color: #ffffff;
+}
+ul.contact-information a:hover {
+  color: inherit;
 }
 
 .copyright {
