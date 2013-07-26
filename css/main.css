@@ -41,13 +41,26 @@ section {
 footer {
   font-size: 11px;
 }
+h1 {
+  font-family: arial, sans-serif;
+  font-size: 18px;
+}
 
 .hero-image {
-  min-height: 362px;
+  height: 362px;
   background-color: transparent;
   background-image: url('../img/bg-fire-sprinklers.jpg');
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+.service-icon {
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 0.28em 0.28em 0.46em #1b3553;
+}
+.service-icon img {
+  margin-right: 10px;
 }
 
 .services-showcase {
@@ -59,8 +72,14 @@ footer {
   border-radius: 0px 0px 10px 10px;
 }
 
-.theme-block-alternate {
-  background-color: #d5dfea;
+ul.contact-list {
+  margin-left: 5px;
+}
+ul.contact-list li {
+  list-style-type: none;
+}
+ul.contact-list li img {
+  margin-right: 10px;
 }
 
 ul.contact-information {
