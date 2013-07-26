@@ -3,16 +3,6 @@
 @import url('defaults.css');
 @import url('vendor/bootstrap.css');
 
-/*
-  Fonts: Arial, Source Sans Pro
-  Colors:
-    #d5dfea
-    #e7e7e7
-    #d3d3d3
-    #f6f6f6
-    #9bacc0
-*/
-
 a, a:link {
   cursor: pointer;
   text-decoration: none;
@@ -53,23 +43,25 @@ h1 {
   background-repeat: no-repeat;
   background-position: center top;
 }
-
-.service-icon {
-  font-size: 14px;
-  font-weight: bold;
-  text-shadow: 0.28em 0.28em 0.46em #1b3553;
-}
-.service-icon img {
-  margin-right: 10px;
+.hero-image img {
+  margin: 20px 0px 0px 50px;
 }
 
 .services-showcase {
-  padding: 15px 0px;
   background-color: #f6f6f6;
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
   -khtml-border-radius: 0px 0px 10px 10px;
   border-radius: 0px 0px 10px 10px;
+}
+.service-icon {
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 0.28em 0.28em 0.46em #1b3553;
+  padding: 15px 0px;
+}
+.service-icon img {
+  margin-right: 10px;
 }
 
 ul.contact-list {
@@ -114,6 +106,13 @@ ul.contact-information a, ul.contact-information a:link {
 }
 ul.contact-information a:hover {
   color: inherit;
+}
+
+.preferred-supplier {
+  text-align: center;
+}
+.preferred-supplier img {
+  margin: 10px 0px 0px 10px;  
 }
 
 .copyright {
