@@ -6,7 +6,6 @@
 /*
   Fonts: Arial, Source Sans Pro
   Colors:
-    #1b3553
     #d5dfea
     #e7e7e7
     #d3d3d3
@@ -26,7 +25,8 @@ html {
 body {
   margin: 0px;
   min-width: 320px;
-  font-family: 'Source Sans Pro', helvetica, arial, sans-serif;
+  font: 12px 'Source Sans Pro', helvetica, arial, sans-serif;
+  color: #1b3553;
 }
 footer,
 header {
@@ -57,6 +57,10 @@ footer {
   -webkit-border-radius: 0px 0px 10px 10px;
   -khtml-border-radius: 0px 0px 10px 10px;
   border-radius: 0px 0px 10px 10px;
+}
+
+.theme-block-alternate {
+  background-color: #d5dfea;
 }
 
 ul.contact-information {
