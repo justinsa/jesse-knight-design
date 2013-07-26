@@ -1,4 +1,4 @@
 jesse-knight-design
 ===================
 
-Jessie Knight Drafting
+Jessie Knight Design
